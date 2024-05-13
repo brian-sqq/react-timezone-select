@@ -1,6 +1,7 @@
 name: Publish package to GitHub Packages
 on:
-  tags:
+  push:
+    tags:
       - "*"
     paths-ignore:
       - 'README.md'
