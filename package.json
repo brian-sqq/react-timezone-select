@@ -1,6 +1,6 @@
 {
-  "name": "react-timezone-select",
-  "version": "3.2.3",
+  "name": "@superquickquestion/react-timezone-select",
+  "version": "3.2.3-sqq",
   "description": "Usable, dynamic React Timezone Select",
   "scripts": {
     "dev": "concurrently \"tsup src/index.tsx --format esm --watch\" \"cd example && pnpm dev\"",
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/ndom91/react-timezone-select",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ndom91/react-timezone-select.git"
+    "url": "git+https://github.com/superquickquestion/react-timezone-select.git"
   },
   "bugs": {
     "url": "https://github.com/ndom91/react-timezone-select/issues"
