@@ -1,3 +1,21 @@
+# Why a Fork?
+We are using this fork because we need the code change in [this PR](https://github.com/ndom91/react-timezone-select/pull/124).  We're hoping it will be merged soon, but can no longer wait.  Once it's hopefully merged, we can discontinue use of this fork.
+
+## Publishing the Package
+In order to publish a new version of this package, if that ever becomes necessary, be sure to do the following.
+
+* Update the version inside `package.json`.
+* Once changes, including the version update, are merged, push a tag (first 10 of the commit hash).  This will trigger the GHA to publish the package to our Github organization.
+
+## Installing the Package Locally
+If you are developing locally and depend on this package, you may have to login to the npm repository.
+
+* Create a [personal access token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) with at least `read:packages` scope.
+* Login to the npm repository using your Github username and the new personal access token.
+```
+npm login --scope=@superquickquestion --auth-type=legacy --registry=https://npm.pkg.github.com
+``` 
+
 # 🌐⌚ react-timezone-select
 
 [![npm](https://img.shields.io/npm/v/react-timezone-select?style=flat-square)](https://www.npmjs.com/package/react-timezone-select)
